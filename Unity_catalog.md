@@ -1,7 +1,7 @@
 ### This document outlines what happens without using unity catalog and using unity catalog.
 
 
-### Unity Catalog Overview : 
+# Unity Catalog Overview : 
 It acts as a single, central control plane. 
 Unity catalog provides access control, auditing, quality monitoring, data discovery. 
 ### Access control : 
@@ -21,6 +21,7 @@ it helps teams to find, understand, and trust the data available in the organiza
 
 The Core Problem: Fragmented Legacy Workspaces
 Organizations typically deploy multiple isolated workspaces to separate environments, each environment have user management, meta store and access control.
+
 **Development Workspace (Dev)** – Where engineers build and test code.
 **Production Workspace (Prod)** – Where automated pipelines process live business data.
 
