@@ -1,0 +1,12 @@
+def twosum( nums: list[int], target : int):
+    seen = {}
+    for i, num in enumerate(nums):
+        first_num = target - num
+        if first_num in seen:
+            return [seen[first_num],i]
+        seen[num] = i
+
+MY_LIST = twosum(nums=[2,3,4,5],target= 6)
+
+print("two SUM",MY_LIST)
+
